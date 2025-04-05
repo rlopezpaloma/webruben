@@ -1,1 +1,81 @@
-<h1>Servidor web de Ruben 3</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Página web de Rubén</title>
+<style>
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  }
+
+  .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  }
+
+  h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  }
+
+  .card-container {
+  display: flex; /* Activar Flexbox */
+  justify-content: space-around; /*Espacio igual entre tarjetas*/
+  flex-wrap: wrap; /*Permite que las tarjetas se adapten a la pantalla*/
+  }
+
+  .card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+  width: 200px; /* Ancho fijo para las tarjetas */
+  }
+
+  .card h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+  }
+
+  .card p {
+  color: #555;
+  line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Página web de Rubén</h1>
+
+  <div class="card-container">
+  <div class="card">
+  <h2>Datos personales</h2>
+  <p>Nombre: Rubén</p>
+  <p>Edad: 45 años</p>
+  <p>Ciudad: Madrid</p>
+  </div>
+
+  <div class="card">
+  <h2>Trabajo</h2>
+  <p>Profesión: Desarrollador web</p>
+  <p>Empresa: Ejemplo S.A.</p>
+  <p>Experiencia: 5 años</p>
+  </div>
+
+  <div class="card">
+  <h2>Aficiones</h2>
+  <p>Deporte: Fútbol</p>
+  <p>Música: Rock</p>
+  <p>Viajes: Europa</p>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
